@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+
+[dev-packages]
+"flake8" = "*"
+yapf = "*"
+pylint = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-sugar = "*"
+
+[requires]
+python_version = "3.6"

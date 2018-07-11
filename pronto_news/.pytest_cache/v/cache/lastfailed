@@ -1,0 +1,5 @@
+{
+  "posts/tests/test_post.py::PostTest": true,
+  "posts/tests/test_post.py::TestCase": true,
+  "posts/tests/test_view.py::PostListViewTest::test_post_list_view_should_xxx": true
+}
