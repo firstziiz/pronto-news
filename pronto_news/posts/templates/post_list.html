@@ -1,0 +1,16 @@
+<form action="." method="post">
+  {% csrf_token %} {{ form.title }} {{ form.url }}
+  <button type="submit">
+    Create
+  </button>
+</form>
+
+{% spaceless %}
+<ul>
+  {% for post in posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endspaceless %}
