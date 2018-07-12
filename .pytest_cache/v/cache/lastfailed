@@ -1,4 +1,6 @@
 {
+  "pronto_news/posts/tests/test_admin.py": true,
+  "pronto_news/posts/tests/test_forms.py": true,
   "pronto_news/posts/tests/test_model.py": true,
   "pronto_news/posts/tests/test_view.py": true
 }

@@ -1,7 +1,10 @@
 [
   "posts/tests/test_admin.py::PostAdminTest::test_post_admin_should_be_accessible",
   "posts/tests/test_admin.py::PostAdminTest::test_post_admin_should_set_list_display",
+  "posts/tests/test_forms.py::PostFormTest::test_from_should_use_post_model",
   "posts/tests/test_model.py::PostTest::test_post_should_have_title_and_url",
   "posts/tests/test_view.py::PostListViewTest::test_post_list_view_should_be_accessible",
+  "posts/tests/test_view.py::PostListViewTest::test_post_list_view_should_have_post_form",
+  "posts/tests/test_view.py::PostListViewTest::test_post_list_view_should_save_data_when_post_data",
   "posts/tests/test_view.py::PostListViewTest::test_post_list_view_should_show_list_of_post"
 ]
